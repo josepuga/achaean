@@ -1,0 +1,23 @@
+{
+    "plugin": {
+        "id": "sample-python1",
+        "entrypoint": "sample_python1.py",
+        "category": "Samples",
+        "name": "Sample Python #1",
+        "description": "Sample code for Python Developers.",
+        "version": "1.0.0",
+        "author": "José Puga"
+    },
+
+    "parameters": {
+        "-h": {
+            "name": "Hostname",
+            "value": "nmap.scanme.org"
+        },
+        "-p": {
+            "name": "Ports Range",
+            "limits": [1, 65535],
+            "value": [21, 22, 80]
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "plugin": {
+        "id": "sample-bash1",
+        "entrypoint": "sample_bash1.sh",
+        "category": "Samples",
+        "name": "Sample Bash #1",
+        "description": "Sample code for Bash Developers.",
+        "version": "1.0.0",
+        "author": "José Puga"
+    },
+
+    "parameters": {
+        "--host": {
+            "name": "Hostname",
+            "value": "nmap.scanme.org"
+        },
+        "--ports-range=": {
+            "name": "Ports Range",
+            "value": [21, 22, 80],
+            "limits": [1, 65535]
+        },
+        "-w": {
+            "name": "Workers",
+            "value": 100,
+            "limits": [1, 200]
+        },
+        "--show-closed=": {
+            "name": "Show Closed ports",
+            "value": false
+        }
+    }
+}

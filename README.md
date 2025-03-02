@@ -13,7 +13,7 @@ Under `data/plugins` you can see some plugins in Bash, C++, Go, Pascal & Python 
 Selecting a plugin...
 
 
-![Sample bash plugin](doc/sample-plugin-bash.png)
+![Sample bash plugin](doc/sample-plugin-bash.gif)
 Bash plugin running
 
 ![Sample bash python](doc/sample-plugin-python.png)
